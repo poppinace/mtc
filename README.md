@@ -1,7 +1,7 @@
 # Maize Tassels Counting Dataset
 ![maize tassels](maize_tassels.png)
 
-This repository provide the download link of the Maize Tassels Counting (MTC) dataset described in our work:
+This repository describes the Maize Tassels Counting (MTC) dataset presented in our work:
 
 **[TasselNet: Counting maize tassels in the wild via local counts regression network](https://plantmethods.biomedcentral.com/track/pdf/10.1186/s13007-017-0224-0)**
 
