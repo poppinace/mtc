@@ -20,7 +20,7 @@ This repository describes the Maize Tassels Counting (MTC) dataset presented in 
 ![maize tassels](challenges.jpg)
 
 ## Introduction
-We first address plant-related counting problem under unconstrained field conditions. Plant counting is very challenging. What makes plants counting different from other conventional objects, such as crowd, cells and vehicles, is their physical size variations. This attributes to the self-changing nature of plants because they grow over time. The size variations are also nonuniform in images. Maize tassels have almost all necessary characteristics that a typical plant has. We thus collect and annotate the MTC dataset and believe it will be a good study case for in-field plant counting problems.
+We first address plant-related counting problem under unconstrained field conditions. Plant counting is very challenging. What makes plants different from other conventional objects, such as crowd, cells and vehicles, is their physical size variations. This attributes to the self-changing nature of plants due to their growth over time. The size variations are also nonuniform in images. Maize tassels have almost all necessary characteristics that a typical plant has. We thus collect and annotate the MTC dataset and believe it will be a good study case for in-field plant counting problems.
 
 ## Downloads
 [Baidu Yun (1.6GB)](https://pan.baidu.com/s/1LL9tXKHvpisDENGOsP7zWw) code: diin
@@ -28,6 +28,10 @@ We first address plant-related counting problem under unconstrained field condit
 [Google Drive (1.6GB)](https://drive.google.com/open?id=0B3VP9kTetyv1OXhDdTBwUER2NGM)
 
 * Each image is associated with a standalone ".mat" annotation file that records the position of dots. The ".mat" files are created in Matlab.
+
+* IMPORTANT NOTICE:
+    - The dataset is restricted to academic purposes only.
+    - If you are interested in comericial use of TasselNet, please contact Prof. Zhiguo Cao (zgcao@hust.edu.cn).
 
 ## Citation
 If you find this dataset useful for your research, please cite:
