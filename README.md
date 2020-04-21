@@ -22,6 +22,18 @@ This repository describes the Maize Tassels Counting (MTC) dataset presented in 
 ## Introduction
 We first address plant-related counting problem under unconstrained field conditions. Plant counting is very challenging. What makes plants different from other conventional objects, such as crowd, cells and vehicles, is their physical size variations. This attributes to the self-changing nature of plants due to their growth over time. The size variations are also nonuniform in images. Maize tassels have almost all necessary characteristics that a typical plant has. We thus collect and annotate the MTC dataset and believe it will be a good study case for in-field plant counting problems.
 
+## Benchmark Results
+| Method        | Venue, Year           | Pretrained    | MAE   | MSE    |
+| :--:          | :--:                  | :--:          | :--:  | :--:   |
+| [JointSeg](https://www.sciencedirect.com/science/article/abs/pii/S1537511015304438)      | BIOSYSENG 2016        | -             | 24.2  | 31.6   | 
+| [mTASSEL](https://www.sciencedirect.com/science/article/pii/S0168169915002537)       | COMPAG 2015           | -             | 19.6  | 26.1   |
+| [DensityReg](http://papers.nips.cc/paper/4043-learning-to-count-objects-in-images)    | NIPS 2010 | - | 11.9 | 14.8 |
+| [TasselNet](https://link.springer.com/article/10.1186/s13007-019-0537-2)         | PLME 2017            | No         | 6.6  | 9.6   |
+| [CSRNet](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_CSRNet_Dilated_Convolutional_CVPR_2018_paper.html) | CVPR 2018 | VGG16 | 9.4 | 14.4 |
+| [S-DCNet](http://openaccess.thecvf.com/content_ICCV_2019/html/Xiong_From_Open_Set_to_Closed_Set_Counting_Objects_by_Spatial_ICCV_2019_paper.html) | ICCV 2019 | VGG16 | 5.6 | 9.1 |
+| [BCNet](https://ieeexplore.ieee.org/abstract/document/8846229)         | TCSVT 2019            | VGG16         | 5.4  | 9.6   |
+| [TasselNetv2](https://link.springer.com/article/10.1186/s13007-019-0537-2)         | PLME 2019            | No         | 5.4  | 8.8   |
+
 ## Downloads
 [Baidu Yun (1.6GB)](https://pan.baidu.com/s/1LL9tXKHvpisDENGOsP7zWw) code: diin
 
